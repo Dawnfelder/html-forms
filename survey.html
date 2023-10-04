@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+
+<body>
+    <header>
+        <h1>Survey</h1>
+        <h2>Purpose</h2>
+
+        <p>The purpose of this survey is to demonstrate the correlation between good taste and general intelligence. Both shall be established by collecting answers from participants to a series of questions, to each of which there is an objectively correct answer.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+
+            <h2>Personal details</h2>
+
+            <div>
+                <label for="full-name">Full name:</label><br>
+                <input type="text" id="full-name" name="full-name">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="dob">Date of birth:</label><br>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="gender">Gender:</label><br>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="no-disclose">Prefer not to say</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pass">Password (8 characters minimum):</label><br>
+                <input type="password" id="pass" name="password"
+                    minlength="8" required>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section>
+
+            <h2>Questions</h2>
+
+            <div>
+                <p>Which came first, the chicken or the egg?</p>
+
+                <input type="radio">
+                <label for="chicken">The chicken</label><br>
+                <input type="radio">
+                <label for="egg">The egg</label><br>
+                </div>
+
+            <br> 
+
+            <div>
+                <p>What is the best colour?</p>
+                <input type="radio" name="colour" id="blue" value="blue">
+                <label for="blue">Blue</label><br>
+                
+                <input type="radio" name="colour" id="red" value="red">
+                <label for="red">Red</label><br>
+                
+                <input type="radio" name="colour" id="yellow" value="yellow">
+                <label for="yellow">Yellow</label><br>
+                
+                <input type="radio" name="colour" id="green" value="green">
+                <label for="green">Green</label><br>
+            </div>
+
+            <br>
+
+            <div>
+                <p>Who is the most skilled web developer of all time? <br>(Please tick all that apply)</p>
+
+                
+                <input type="checkbox" id="kieran1" name="kieran" value="Kieran">
+                <label for="kieran">Kieran</label><br>
+                
+                <input type="checkbox" id="kieran2" name="kieran" value="Kieran">
+                <label for="kieran">Kieran</label><br>
+
+                <input type="checkbox" id="kieran3" name="kieran" value="Kieran">
+                <label for="kieran">Kieran</label><br>
+                
+                <input type="checkbox" id="kieran4" name="kieran" value="Kieran">
+                <label for="kieran">Kieran</label><br>
+            </div>
+
+            <br><br>
+
+            <div>
+                <label for="discussion">Mojitos are basically budget caipirinhas. Discuss.</label><br><br>
+                <textarea name="discussion" id="discussion" cols="30" rows="10"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
